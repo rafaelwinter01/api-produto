@@ -34,6 +34,6 @@ jobs:
           push: true
           tags: |
             rafaelwinter01/api-bootcamp-produto:latest
-            rafaelwinter01/api-bootcamp-produto:$((github.run_number))
+            rafaelwinter01/api-bootcamp-produto:${{github.run_number}}
             
 
